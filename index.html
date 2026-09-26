@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Portfólio de desenvolvimento de Monithelle.">
+
+  <title>Portfólio | Monithelle</title>
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body>
+
+
+
+  <header class="site-header">
+
+    <a class="brand" href="#inicio" aria-label="Ir para o início">
+
+      <span class="brand-symbol">&lt;/</span>
+
+      <span class="brand-text">Monithelle<span class="brand-dot">.</span></span>
+
+      <span class="brand-symbol">&gt;</span>
+
+    </a>
+
+
+
+    <div class="header-actions">
+
+      <nav class="site-nav" id="siteNav" aria-label="Navegação principal">
+
+        <a href="#inicio" data-i18n="navHome">Início</a>
+
+        <a href="#projetos" data-i18n="navProjects">Projetos</a>
+
+        <a href="#sobre" data-i18n="navAbout">Sobre mim</a>
+
+        <a href="#contato" data-i18n="navContact">Contato</a>
+
+      </nav>
+
+
+
+      <button class="language-button" id="languageButton" type="button" aria-label="Trocar idioma para inglês">
+
+        <span class="language-icon">文</span>
+
+        <span id="languageLabel">EN</span>
+
+      </button>
+
+
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="siteNav">
+
+        Menu
+
+      </button>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+
+
+    <section class="hero section-shell" id="inicio">
+
+      <div class="hero__content">
+<h1>
+
+          <span data-i18n="heroHello">Olá, eu sou a</span>
+
+          <span class="hero-name">Monithelle.</span>
+
+        </h1>
+
+
+
+        <p class="hero__intro" data-i18n="heroIntro">
+
+          Desenvolvedora em formação, criando soluções web funcionais,
+
+          acessíveis e bem cuidadas.
+
+        </p>
+
+
+
+        <div class="hero__actions">
+
+          <a class="button" href="#projetos" data-i18n="heroProjects">Conheça meus projetos</a>
+
+          <a class="button button--secondary" href="#sobre" data-i18n="heroAbout">Sobre mim</a>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="hero__visual">
+
+        <div class="developer-wrapper">
+
+          <img
+
+            src="assets/imagens/desenvolvedora.png"
+
+            alt="Ilustração de uma desenvolvedora trabalhando no computador"
+
+            class="developer-image"
+
+            data-i18n-alt="heroImageAlt"
+
+          >
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section-shell section-block projects-section" id="projetos">
+
+      <div class="projects-heading">
+
+        <p class="eyebrow projects-eyebrow" data-i18n="projectsTitle">Projetos</p>
+
+      </div>
+
+
+
+      <div class="project-grid">
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--orange">
+
+              <img src="assets/imagens/projetos/projeto-01.png" alt="Imagem do Projeto 01" data-i18n-alt="project1Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project1Title">Projeto 01</h3>
+
+              <p data-i18n="project1Description">
+
+                Uma pequena descrição explicando o objetivo e as principais funcionalidades do projeto.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>HTML</span>
+
+                <span>CSS</span>
+
+                <span>JavaScript</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--blue">
+
+              <img src="assets/imagens/projetos/projeto-02.png" alt="Imagem do Projeto 02" data-i18n-alt="project2Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project2Title">Projeto 02</h3>
+
+              <p data-i18n="project2Description">
+
+                Projeto desenvolvido utilizando tecnologias front-end e integração com serviços externos.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>React</span>
+
+                <span>API</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--yellow">
+
+              <img src="assets/imagens/projetos/projeto-03.png" alt="Imagem do Projeto 03" data-i18n-alt="project3Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project3Title">Projeto 03</h3>
+
+              <p data-i18n="project3Description">
+
+                Aplicação web desenvolvida para solucionar um problema específico.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>Python</span>
+
+                <span>Flask</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--purple">
+
+              <img src="assets/imagens/projetos/projeto-04.png" alt="Imagem do Projeto 04" data-i18n-alt="project4Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project4Title">Projeto 04</h3>
+
+              <p data-i18n="project4Description">
+
+                Sistema com armazenamento de dados e funcionalidades de cadastro e gerenciamento.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>Flask</span>
+
+                <span>MySQL</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--green">
+
+              <img src="assets/imagens/projetos/projeto-05.png" alt="Imagem do Projeto 05" data-i18n-alt="project5Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project5Title">Projeto 05</h3>
+
+              <p data-i18n="project5Description">
+
+                Projeto com autenticação e acesso utilizando serviços externos.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>Google Auth</span>
+
+                <span>API</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+        <article class="project-card">
+
+          <a href="#" class="project-card__link">
+
+            <div class="project-card__image project-accent--orange">
+
+              <img src="assets/imagens/projetos/projeto-06.png" alt="Imagem do Projeto 06" data-i18n-alt="project6Alt">
+
+            </div>
+
+
+
+            <div class="project-card__body">
+
+              <h3 data-i18n="project6Title">Projeto 06</h3>
+
+              <p data-i18n="project6Description">
+
+                Projeto completo reunindo diferentes tecnologias e conceitos estudados.
+
+              </p>
+
+
+
+              <div class="tag-list">
+
+                <span>Full Stack</span>
+
+                <span>MySQL</span>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </article>
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section-shell section-block about-section" id="sobre">
+
+      <p class="eyebrow" data-i18n="skillsEyebrow">Sobre mim</p>
+
+
+
+      <h2 class="about-title">
+
+        <span data-i18n="skillsTitlePrefix">Transformando ideias em</span>
+
+        <span class="about-highlight" data-i18n="skillsTitleHighlight">soluções digitais.</span>
+
+      </h2>
+
+
+
+      <div class="about-main">
+
+        <div class="about-copy">
+
+
+
+          <p data-i18n="skillsText2">
+
+            Trabalho com HTML, CSS, JavaScript, Python, PHP, Flask e MySQL, além de APIs e integrações externas.
+
+          </p>
+
+
+
+          <p data-i18n="skillsText3">
+
+            Gosto de transformar problemas reais em soluções digitais úteis, buscando evoluir constantemente e aprimorar cada projeto que desenvolvo.
+
+          </p>
+
+        </div>
+
+
+
+        <div class="about-image-wrapper">
+
+          <img
+
+            src="assets/imagens/ideias.png"
+
+            alt="Ilustração de uma desenvolvedora criando soluções digitais"
+
+            data-i18n-alt="aboutImageAlt"
+
+          >
+
+        </div>
+
+      </div>
+
+
+
+      <h3 class="about-subtitle" data-i18n="stackTitle">Tecnologias</h3>
+
+
+
+      <div class="tech-list">
+
+        <div class="tech-item">
+
+          <span class="tech-name">Python</span>
+
+          <i class="devicon-python-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">HTML</span>
+
+          <i class="devicon-html5-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">CSS</span>
+
+          <i class="devicon-css3-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">JavaScript</span>
+
+          <i class="devicon-javascript-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">PHP</span>
+
+          <i class="devicon-php-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">Flask</span>
+
+          <i class="devicon-flask-original"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">MySQL</span>
+
+          <i class="devicon-mysql-original colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">Git</span>
+
+          <i class="devicon-git-plain colored"></i>
+
+        </div>
+
+
+
+        <div class="tech-item">
+
+          <span class="tech-name">GitHub</span>
+
+          <i class="devicon-github-original"></i>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section-shell section-block contact-section" id="contato">
+
+      <div class="contact-copy">
+
+        <p class="eyebrow contact-eyebrow" data-i18n="contactEyebrow">Contato</p>
+
+        <h2 data-i18n="contactTitle">Tem um projeto em mente?</h2>
+
+
+
+        <p class="contact-text" data-i18n="contactText">
+
+          Entre em contato para dúvidas, ideias, orçamentos ou suporte.
+
+        </p>
+
+
+
+        <div class="social-links" aria-label="Redes sociais">
+
+          <a class="social-button" href="mailto:seuemail@exemplo.com" aria-label="Enviar e-mail" title="E-mail">
+
+            <i class="fa-solid fa-envelope"></i>
+
+          </a>
+
+
+
+          <a class="social-button" href="https://github.com/Monithelle" target="\_blank" rel="noopener noreferrer" aria-label="GitHub de Monithelle" title="GitHub">
+
+            <i class="fa-brands fa-github"></i>
+
+          </a>
+
+
+
+          <a class="social-button" href="https://www.linkedin.com/in/monithellepereiramaciel/" target="\_blank" rel="noopener noreferrer" aria-label="LinkedIn de Monithelle Pereira Maciel" title="LinkedIn">
+
+            <i class="fa-brands fa-linkedin-in"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+
+      <form
+        class="contact-panel"
+        id="contactForm"
+        action="/contato"
+        method="post"
+        novalidate
+      >
+        <!-- Campo invisível anti-bot (honeypot) -->
+        <div class="honeypot-field" aria-hidden="true">
+          <label for="website">Website</label>
+          <input
+            type="text"
+            id="website"
+            name="website"
+            tabindex="-1"
+            autocomplete="off"
+          >
+        </div>
+
+        <div class="field">
+          <label for="nome" data-i18n="contactName">Nome</label>
+          <input
+            id="nome"
+            name="nome"
+            type="text"
+            placeholder="Nome"
+            autocomplete="name"
+            data-i18n-placeholder="contactNamePlaceholder"
+            maxlength="120"
+            required
+          >
+        </div>
+
+        <div class="field">
+          <label for="email" data-i18n="contactEmail">E-mail</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="E-mail"
+            autocomplete="email"
+            data-i18n-placeholder="contactEmailPlaceholder"
+            maxlength="254"
+            required
+          >
+        </div>
+
+        <div class="field field--message">
+          <label for="mensagem" data-i18n="contactMessage">Mensagem</label>
+          <textarea
+            id="mensagem"
+            name="mensagem"
+            rows="7"
+            placeholder="Mensagem"
+            data-i18n-placeholder="contactMessagePlaceholder"
+            maxlength="3000"
+            required
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="submit-button"
+          id="submitButton"
+        >
+          <span data-i18n="contactSend">Enviar mensagem</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3.5 20.5 21 12 3.5 3.5v6.1l9.6 2.4-9.6 2.4v6.1Z"/>
+          </svg>
+        </button>
+
+        <p
+          class="form-status"
+          id="formStatus"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </form>
+
+    </section>
+
+
+
+  </main>
+
+
+
+  <footer class="site-footer">
+
+    <p>Monithelle — Todos os direitos reservados © <span id="currentYear"></span></p>
+
+  </footer>
+
+
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
