@@ -90,13 +90,13 @@ const translations = {
 
 
 
-    project3Title: 'Projeto 03',
+    project3Title: 'Planejamento Pedagógico',
 
     project3Description:
 
-      'Aplicação web desenvolvida para solucionar um problema específico.',
+      'Sistema web desenvolvido para auxiliar professores na criação e organização de planos de aula de forma prática e personalizada.',
 
-    project3Alt: 'Imagem do Projeto 03',
+    project3Alt: 'Prévia do sistema Planejamento Pedagógico',
 
 
 
@@ -244,13 +244,13 @@ const translations = {
 
 
 
-    project3Title: 'Project 03',
+    project3Title: 'Pedagogical Planning',
 
     project3Description:
 
-      'A web application developed to solve a specific problem.',
+      'Web system developed to help teachers create and organize lesson plans in a practical and personalized way.',
 
-    project3Alt: 'Project 03 preview',
+    project3Alt: 'Pedagogical Planning system preview',
 
 
 
