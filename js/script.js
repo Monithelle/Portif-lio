@@ -100,13 +100,13 @@ const translations = {
 
 
 
-    project4Title: 'Projeto 04',
+    project4Title: 'Casa de Ração',
 
     project4Description:
 
-      'Sistema com armazenamento de dados e funcionalidades de cadastro e gerenciamento.',
+      'Controlar um estoque exige acompanhar mais que o saldo atual: é necessário saber o que entrou, o que saiu, os custos, os preços e quem registrou cada operação.',
 
-    project4Alt: 'Imagem do Projeto 04',
+    project4Alt: 'Prévia do sistema de gerenciamento de estoque Casa de Ração',
 
 
 
@@ -254,13 +254,13 @@ const translations = {
 
 
 
-    project4Title: 'Project 04',
+    project4Title: 'Casa de Ração',
 
     project4Description:
 
-      'A system with data storage, registration and management features.',
+      'Managing inventory requires tracking more than the current stock balance: you need to know what came in, what went out, the costs, the prices, and who recorded each operation.',
 
-    project4Alt: 'Project 04 preview',
+    project4Alt: 'Casa de Ração inventory management system preview',
 
 
 
