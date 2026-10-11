@@ -80,13 +80,13 @@ const translations = {
 
 
 
-    project2Title: 'Projeto 02',
+    project2Title: 'Alice Soares | Arquitetura, Urbanismo e Interiores',
 
     project2Description:
 
-      'Projeto desenvolvido utilizando tecnologias front-end e integração com serviços externos.',
+      'Site de apresentação profissional para Alice Soares, reunindo projetos de arquitetura, urbanismo e interiores em uma experiência visual elegante e funcional.',
 
-    project2Alt: 'Imagem do Projeto 02',
+    project2Alt: 'Prévia do site de Alice Soares, arquitetura, urbanismo e interiores',
 
 
 
@@ -234,13 +234,13 @@ const translations = {
 
 
 
-    project2Title: 'Project 02',
+    project2Title: 'Alice Soares | Architecture, Urbanism and Interiors',
 
     project2Description:
 
-      'A project built with front-end technologies and external service integrations.',
+      'A professional showcase website for Alice Soares, bringing together architecture, urbanism, and interior design projects in an elegant, functional visual experience.',
 
-    project2Alt: 'Project 02 preview',
+    project2Alt: 'Preview of Alice Soares’ architecture, urbanism, and interiors website',
 
 
 
@@ -1002,4 +1002,3 @@ if (contactForm) {
     }
   });
 }
-
