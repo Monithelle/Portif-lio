@@ -74,9 +74,9 @@ const translations = {
 
     project1Description:
 
-      'Uma pequena descrição explicando o objetivo e as principais funcionalidades do projeto.',
+      'Em construção.',
 
-    project1Alt: 'Imagem do Projeto 01',
+    project1Alt: 'Projeto 01 em construção',
 
 
 
@@ -114,9 +114,9 @@ const translations = {
 
     project5Description:
 
-      'Projeto com autenticação e acesso utilizando serviços externos.',
+      'Em construção.',
 
-    project5Alt: 'Imagem do Projeto 05',
+    project5Alt: 'Projeto 05 em construção',
 
 
 
@@ -124,9 +124,9 @@ const translations = {
 
     project6Description:
 
-      'Projeto completo reunindo diferentes tecnologias e conceitos estudados.',
+      'Em construção.',
 
-    project6Alt: 'Imagem do Projeto 06',
+    project6Alt: 'Projeto 06 em construção',
 
 
 
@@ -228,9 +228,9 @@ const translations = {
 
     project1Description:
 
-      'A short description explaining the project goal and its main features.',
+      'Under construction.',
 
-    project1Alt: 'Project 01 preview',
+    project1Alt: 'Project 01 under construction',
 
 
 
@@ -268,9 +268,9 @@ const translations = {
 
     project5Description:
 
-      'A project featuring authentication and access through external services.',
+      'Under construction.',
 
-    project5Alt: 'Project 05 preview',
+    project5Alt: 'Project 05 under construction',
 
 
 
@@ -278,9 +278,9 @@ const translations = {
 
     project6Description:
 
-      'A complete project combining different technologies and concepts.',
+      'Under construction.',
 
-    project6Alt: 'Project 06 preview',
+    project6Alt: 'Project 06 under construction',
 
 
 
